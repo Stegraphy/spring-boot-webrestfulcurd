@@ -18,10 +18,10 @@ public class EmployeeDao {
         employees = new HashMap<Integer, Employee>();
 
         employees.put(001,new Employee(001,"EE-ONE","151@qq.com",1,new Department(001,"FF-ONE")));
-        employees.put(001,new Employee(002,"EE-TWO","151@qq.com",0,new Department(002,"FF-TWO")));
-        employees.put(001,new Employee(003,"EE-THR","151@qq.com",0,new Department(003,"FF-THR")));
-        employees.put(001,new Employee(004,"EE-FOU","151@qq.com",0,new Department(004,"FF-FOU")));
-        employees.put(001,new Employee(005,"EE-FIV","151@qq.com",1,new Department(005,"FF-FIV")));
+        employees.put(002,new Employee(002,"EE-TWO","151@qq.com",0,new Department(002,"FF-TWO")));
+        employees.put(003,new Employee(003,"EE-THR","151@qq.com",0,new Department(003,"FF-THR")));
+        employees.put(004,new Employee(004,"EE-FOU","151@qq.com",0,new Department(004,"FF-FOU")));
+        employees.put(005,new Employee(005,"EE-FIV","151@qq.com",1,new Department(005,"FF-FIV")));
 
     }
     private  static Integer InitId= 006;

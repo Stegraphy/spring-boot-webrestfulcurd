@@ -11,18 +11,6 @@ public class Employee {
     private Date birth;
     private Department department;
 
-    @Override
-    public String toString() {
-        return "Department{" +
-                "id=" + id +
-                ", lastName='" + lastName + '\'' +
-                ", email='" + email + '\'' +
-                ", gender=" + gender +
-                ", birth=" + birth +
-                ", department=" + department +
-                '}';
-    }
-
     public Integer getId() {
         return id;
     }
@@ -59,7 +47,8 @@ public class Employee {
         return birth;
     }
 
-    public void setBirth(Date date) {
+
+    public void setBirth(Date birth) {
         this.birth = birth;
     }
 
@@ -81,5 +70,16 @@ public class Employee {
     }
     public Employee(){
 
+    }
+    @Override
+    public String toString() {
+        return "Department{" +
+                "id=" + id +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", gender=" + gender +
+                ", birth=" + birth +
+                ", department=" + department +
+                '}';
     }
 }
